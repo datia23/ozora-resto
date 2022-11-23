@@ -235,6 +235,4 @@ body {
     left: 300px;
 }
 
-@media screen and (max-width: 990px) {
-    
-}
+@media only screen and (max-width: 990px) {}

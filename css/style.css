@@ -56,7 +56,7 @@ body {
 }
 
 .button-menu {
-    margin-top: 32px;
+    margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
     display: flex;
@@ -66,8 +66,9 @@ body {
 .button-menu .button1 {
     border: none;
     border-radius: 50px;
-    height: 110px;
-    width: 280px;
+    padding: 20px 45px;
+    display: flex;
+    align-items: center;
     font-size: 36px;
     font-family: 'Yusei Magic', sans-serif;
     color: #ffffff;
@@ -81,8 +82,9 @@ body {
 }
 
 .button-menu .button2 {
-    height: 110px;
-    width: 280px;
+    padding: 20px 65px;
+    display: flex;
+    align-items: center;
     font-size: 36px;
     font-family: 'Yusei Magic', sans-serif;
     border: none;
@@ -100,8 +102,9 @@ body {
 }
 
 .button-menu .button3 {
-    height: 110px;
-    width: 280px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
     font-size: 36px;
     font-family: 'Yusei Magic', sans-serif;
     border: none;
@@ -215,11 +218,11 @@ body {
 }
 
 .kupon:hover {
-    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.904));
+    filter: drop-shadow(3px 5px 8px rgba(0, 0, 0, 0.904));
 }
 
 .akses {
-    margin-top: 140px;
+    margin-top: 120px;
     margin-left: 40px;
     background-image: url(../img/akses.png);
     width: 912px;

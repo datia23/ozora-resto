@@ -36,7 +36,7 @@ body {
 
 .menu-special {
     margin-top: 150px;
-    background-image: url("../img/banner.png");height: 100px; width: auto;
+    background-image: url("../img/banner.png"); height: 100px; width: auto;
     background-position: center;
     background-repeat: no-repeat;
 
@@ -119,16 +119,19 @@ body {
 .button1:hover {
     background-color: #63281c;
     color: white;
+    filter: drop-shadow(0px 5px 8px rgba(0, 0, 0, 0.582));
 }
 
 .button2:hover {
     background-color: #63281c;
     color: white;
+    filter: drop-shadow(0px 5px 8px rgba(0, 0, 0, 0.582));
 }
 
 .button3:hover {
     background-color: #63281c;
     color: white;
+    filter: drop-shadow(0px 5px 8px rgba(0, 0, 0, 0.582));
 }
 
 #menu {
@@ -155,7 +158,6 @@ body {
     top: 1370px;
     left: 595px;
     right: 285px;
-    flex-wrap: nowrap;
 }
 
 #menu2 {
@@ -212,8 +214,12 @@ body {
     cursor: pointer;
 }
 
+.kupon:hover {
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.904));
+}
+
 .akses {
-    margin-top: 120px;
+    margin-top: 140px;
     margin-left: 40px;
     background-image: url(../img/akses.png);
     width: 912px;
@@ -221,6 +227,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .akses p {
     font-family: 'Noto Serif JP', serif;
     font-size: 22px;

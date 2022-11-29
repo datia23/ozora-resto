@@ -147,6 +147,7 @@ body {
     background-image: url('../img/menu-1.png');
     background-position: center;
     background-repeat: no-repeat;
+    margin-left: 1px;
     width: 960px;
     height: 609px;
     position: relative;
@@ -182,7 +183,6 @@ body {
     letter-spacing: 0.3px;
     color: white;
     position: absolute;
-    text-align: justify;
     top: 210px;
     right: 90px;
 }
@@ -205,7 +205,6 @@ body {
     line-height: 2.5;
     color: white;
     position: absolute;
-    text-align: justify;
     top: 220px;
     right: 60px;
 }

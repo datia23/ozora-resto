@@ -247,13 +247,13 @@ body {
 @media only screen and (max-width: 990px) {}
 @media only screen and (max-width: 800px) {
     #background {
-        width: 50%;
+        width: 100%;
         padding: 0;
     }
 }
 @media only screen and (max-width:500px) {
     #background {
-        width: 25%;
+        width: 100%;
         padding: 0;
     }
 }

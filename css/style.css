@@ -65,7 +65,7 @@ body {
 
 .button-menu .button1 {
     border: none;
-    border-radius: 50px;
+    border-radius: 60px;
     padding: 20px 45px;
     display: flex;
     align-items: center;
@@ -82,13 +82,13 @@ body {
 }
 
 .button-menu .button2 {
-    padding: 20px 65px;
+    padding: 20px 68px;
     display: flex;
     align-items: center;
     font-size: 36px;
     font-family: 'Yusei Magic', sans-serif;
     border: none;
-    border-radius: 50px;
+    border-radius: 60px;
     color: #ffffff;
     background-color: #823324;
     text-align: center;
@@ -108,7 +108,7 @@ body {
     font-size: 36px;
     font-family: 'Yusei Magic', sans-serif;
     border: none;
-    border-radius: 50px;
+    border-radius: 60px;
     color: #ffffff;
     background-color: #823324;
     text-align: center;
@@ -136,6 +136,7 @@ body {
     color: white;
     filter: drop-shadow(0px 5px 8px rgba(0, 0, 0, 0.582));
 }
+
 
 #menu {
     margin-top: 80px;
@@ -245,12 +246,18 @@ body {
 }
 
 @media only screen and (max-width: 990px) {}
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     #background {
+        width: 80%;
         padding: 0;
     }
 
     .menu-special {
         width: 100%;
+    }
+}
+@media only screen and (max-width:500px) {
+    #background {
+        width: 50%;
     }
 }

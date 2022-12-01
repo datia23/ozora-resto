@@ -195,22 +195,22 @@ body {
 }
 
 .maple-orange {
-    -webkit-animation-duration: 25s;
-    animation-duration: 25s;
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
     background-image: url('../img/maple-orange.png');
     background-size: contain;
 }
 
 .maple-yellow {
-    -webkit-animation-duration: 30s;
-    animation-duration: 30s;
+    -webkit-animation-duration: 35s;
+    animation-duration: 35s;
     background-image: url('../img/maple-yellow.png');
     background-size: contain;
 }
 
 .maple-small {
-    -webkit-animation-duration: 20s;
-    animation-duration: 20s;
+    -webkit-animation-duration: 22s;
+    animation-duration: 22s;
     background-image: url('../img/maple-small.png');
     background-size: contain;
 }
@@ -338,18 +338,22 @@ body {
 }
 
 @media only screen and (max-width: 990px) {}
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:767px) {
     #background {
-        width: 100%;
+        max-width: 767px;
+        width: 50%;
         padding: 0;
+    }
+
+    .title {
+        width:  50%;
     }
 
     .menu-special {
-        width: 100%;
-        padding: 0;
+        width: 50%;
     }
 
     body {
-        width: 100%;
+        width: 50%;
     }
 }

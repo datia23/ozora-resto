@@ -150,41 +150,10 @@ body {
     scale: 1.1;
 }
 
-/* .autumn {
-    overflow: hidden;
-    position: absolute;
-    top: 1000px;
-    height: 100%;
-    width: 100%;
-    max-width: 100%;
-    transform: translate3D(0, 0, 0);
-}
-
-.maple {
-    background-image: url('../img/maple.png');
-    width: 990px;
-    height: 200px;
-    background-repeat: no-repeat;
-    position: relative;
-    animation-name: fall;
-    animation-duration: 5s;
-    animation-delay: 0s;
-    animation-direction: normal;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-play-state: running;
-}
-  
-@keyframes fall {
-    0%   {transform: translate3d(0px,50px,0px);}
-    100% {transform: translate3d(0px,2000px,10px);}
-} */
-
 .autumn {
     overflow: hidden;
     position: absolute;
-    top: 850px;
+    top: 855px;
     height: 2810px;
     width: 100%;
     max-width: 100%;
@@ -321,6 +290,7 @@ body {
 .kupon:hover {
     scale: 1.1;
     filter: drop-shadow(3px 5px 8px rgba(0, 0, 0, 0.904));
+    opacity: 90%;
 }
 
 .akses {
